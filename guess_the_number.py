@@ -34,7 +34,6 @@ def main():
 
     (low, high) = configure_range()
     secret = generate_secret(low, high)
-
     while True:
         guess = get_guess()
         result = check_guess(guess, secret)
